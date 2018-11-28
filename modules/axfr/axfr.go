@@ -23,7 +23,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/pt12lol/dns"
-	"github.com/pt12lol/go-iptree/blacklist"
+	"github.com/zmap/go-iptree/blacklist"
 	"github.com/pt12lol/zdns"
 	"github.com/pt12lol/zdns/modules/miekg"
 	"github.com/pt12lol/zdns/modules/nslookup"

@@ -19,10 +19,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/miekg/dns"
-	"github.com/zmap/zdns"
-	"github.com/zmap/zdns/cachehash"
-	"github.com/zmap/zdns/modules/miekg"
+	"github.com/pt12lol/dns"
+	"github.com/pt12lol/zdns"
+	"github.com/pt12lol/zdns/cachehash"
+	"github.com/pt12lol/zdns/modules/miekg"
 )
 
 // result to be returned by scan of host

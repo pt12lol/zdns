@@ -21,18 +21,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/miekg/dns"
+	"github.com/pt12lol/dns"
 	log "github.com/sirupsen/logrus"
-	"github.com/zmap/zdns"
-	_ "github.com/zmap/zdns/modules/alookup"
-	_ "github.com/zmap/zdns/modules/axfr"
-	_ "github.com/zmap/zdns/modules/dmarc"
-	_ "github.com/zmap/zdns/modules/miekg"
-	_ "github.com/zmap/zdns/modules/mxlookup"
-	_ "github.com/zmap/zdns/modules/nslookup"
-	_ "github.com/zmap/zdns/modules/spf"
+	"github.com/pt12lol/zdns"
+	_ "github.com/pt12lol/zdns/modules/alookup"
+	_ "github.com/pt12lol/zdns/modules/axfr"
+	_ "github.com/pt12lol/zdns/modules/dmarc"
+	_ "github.com/pt12lol/zdns/modules/miekg"
+	_ "github.com/pt12lol/zdns/modules/mxlookup"
+	_ "github.com/pt12lol/zdns/modules/nslookup"
+	_ "github.com/pt12lol/zdns/modules/spf"
 
-	_ "github.com/zmap/zdns/iohandlers/file"
+	_ "github.com/pt12lol/zdns/iohandlers/file"
 )
 
 func main() {

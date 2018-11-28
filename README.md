@@ -2,7 +2,7 @@ ZDNS
 ====
 
 [![Build Status](https://travis-ci.org/zmap/zdns.svg?branch=master)](https://travis-ci.org/zmap/zdns)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zmap/zdns)](https://goreportcard.com/report/github.com/zmap/zdns)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pt12lol/zdns)](https://goreportcard.com/report/github.com/pt12lol/zdns)
 
 ZDNS is a command-line utility that provides high-speed DNS lookups. For
 example, the following will perform MX lookups and a secondary A lookup for the
@@ -10,14 +10,14 @@ IPs of MX servers for the domains in the Alexa Top Million:
 
 	cat top-1m.csv | zdns MX --ipv4-lookup --alexa
 
-ZDNS is written in golang and is primarily based on https://github.com/miekg/dns.
+ZDNS is written in golang and is primarily based on https://github.com/pt12lol/dns.
 
 Install
 =======
 
 ZDNS can be installed by running:
 
-	go get github.com/zmap/zdns/zdns
+	go get github.com/pt12lol/zdns/zdns
 
 
 Usage

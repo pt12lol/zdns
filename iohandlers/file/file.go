@@ -5,9 +5,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/miekg/dns"
+	"github.com/pt12lol/dns"
 	log "github.com/sirupsen/logrus"
-	"github.com/zmap/zdns"
+	"github.com/pt12lol/zdns"
 )
 
 type InputHandler struct {

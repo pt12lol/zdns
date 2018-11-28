@@ -13,8 +13,8 @@ import (
 
 	"github.com/pt12lol/dns"
 	"github.com/zmap/go-iptree/blacklist"
-	"github.com/zmap/zdns"
-	"github.com/zmap/zdns/cachehash"
+	"github.com/pt12lol/zdns"
+	"github.com/pt12lol/zdns/cachehash"
 )
 
 type Answer struct {

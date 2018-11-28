@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/miekg/dns"
+	"github.com/pt12lol/dns"
 	log "github.com/sirupsen/logrus"
 )
 
